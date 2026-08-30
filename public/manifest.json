@@ -6,6 +6,9 @@
   "action": {
     "default_popup": "index.html"
   },
+  "icons": {
+    "128": "icons/icon.png"
+  },
   "permissions": ["storage", "clipboardWrite"],
   "host_permissions": ["https://api.openai.com/*"],
   "content_security_policy": {
