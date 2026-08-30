@@ -10,8 +10,8 @@
     "128": "icons/icon.png"
   },
   "permissions": ["storage", "clipboardWrite"],
-  "host_permissions": ["https://api.openai.com/*"],
+  "host_permissions": ["https://generativelanguage.googleapis.com/*"],
   "content_security_policy": {
-    "extension_pages": "script-src 'self'; object-src 'self'; connect-src 'self' https://api.openai.com"
+    "extension_pages": "script-src 'self'; object-src 'self'; connect-src 'self' https://generativelanguage.googleapis.com"
   }
 }
