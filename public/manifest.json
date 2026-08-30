@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Arabizi Translator",
+  "version": "1.0",
+  "description": "translate arabizi text to arabic",
+  "action": {
+    "default_popup": "index.html"
+  },
+  "permissions": ["storage", "clipboardWrite"],
+  "host_permissions": ["https://api.openai.com/*"],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'; connect-src 'self' https://api.openai.com"
+  }
+}

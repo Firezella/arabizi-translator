@@ -1,0 +1,12 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border-radius: 12px; /* match App.tsx's rounded-xl (12px) */
+}
+
+#root {
+  border-radius: 12px;
+  overflow: hidden;
+}
